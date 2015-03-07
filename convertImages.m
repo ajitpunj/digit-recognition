@@ -1,6 +1,7 @@
-for i=1:100
+for i=1:10
     filename=strcat('image',int2str(i),'.jpg');
     y=imread(filename);
-    bmpname=strcat('image',int2str(i),'.bmp');
+    d1=imresize(y,[480 640]);
+    bmpname=strcat('image',int2str(i),'r','.bmp');
     imwrite(y,bmpname,'bmp');
 end

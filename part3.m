@@ -1,5 +1,5 @@
 function [d1 d2 d3]=part3(imagenum)
-    Y2=part2_fixed(imagenum);
+    Y2=part2_used(imagenum);
     [colSize, rowSize]=size(Y2);%height width
     digits = round((rowSize-40)/(colSize-40));
     d1=Y2(:,1:rowSize/digits);

@@ -1,8 +1,8 @@
 %function [Y2]=part2()
 %y=imread('image90.jpg');
 function [Y2]=part2_fixed(imagenum)
-a = sprintf('image%d.jpg',imagenum);
-y = imread(a);
+%a = sprintf('image%d.jpg',imagenum);
+y = imread(imagenum);
 %imshow(y)
 greyscale=rgb2gray(y);
 [height, width]=size(greyscale);

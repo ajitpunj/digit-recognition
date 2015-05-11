@@ -1,5 +1,6 @@
 function [sum] = sfunc(finalB1L1, finalB1L2, finalW1L1, finalW1L2, finalSoftmaxTheta)
-    img = imread('http://eec181.ece.ucdavis.edu:8081/photo.jpg');
+    %img = imread('http://eec181.ece.ucdavis.edu:8081/photo.jpg');
+    img = imread('image1.jpg');
     warning('off','all');
     %for a = 1:100
     sum =0;

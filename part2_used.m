@@ -1,6 +1,6 @@
-function [Y2]=part2_used()
+function [Y2]=part2_used(imagenum)
 %a = sprintf('image%d.jpg',imagenum);
-y = imread('image1.jpg');
+y = imread(imagenum);
 %y = img;
 imshow(y)
 

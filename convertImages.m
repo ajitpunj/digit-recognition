@@ -3,5 +3,5 @@ for i=1:10
     y=imread(filename);
     d1=imresize(y,[480 640]);
     bmpname=strcat('image',int2str(i),'r','.bmp');
-    imwrite(y,bmpname,'bmp');
+    imwrite(d1,bmpname,'bmp');
 end
